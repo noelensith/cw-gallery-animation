@@ -1,0 +1,14 @@
+/*spinning animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#image1, #image7 {
+  animation: spin 5s linear infinite;
+  transform-origin: center;
+}
